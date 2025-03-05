@@ -14,6 +14,7 @@ import ChangePassword from "./pages/change-password.page";
 import EditProfile from "./pages/edit-profile.page";
 import Notifications from "./pages/notifications.page";
 import MannageBlogs from "./pages/manage-blogs.page";
+import usePageTracking from "./usePageTracking";
 
 export const UserContext = createContext({});
 
