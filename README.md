@@ -5,19 +5,16 @@
 </p>
 
 <p align="center">
-  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" /></a>
-  <a href="https://nodejs.org/" target="_blank"><img src="https://img.shields.io/badge/Backend-Node.js-green?logo=node.js" /></a>
-  <a href="https://expressjs.com/" target="_blank"><img src="https://img.shields.io/badge/API-Express.js-lightgrey?logo=express" /></a>
-  <a href="https://firebase.google.com/" target="_blank"><img src="https://img.shields.io/badge/Auth-Firebase-orange?logo=firebase" /></a>
-  <a href="https://aws.amazon.com/s3/" target="_blank"><img src="https://img.shields.io/badge/Cloud-AWS_S3-yellow?logo=amazon-aws" /></a>
+  <a href="https://blog-loom.netlify.app" target="_blank"><img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=netlify" /></a>
+  <a href="https://kshitij-raj.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Kshitij%20Raj-orange?style=for-the-badge&logo=vercel" /></a>
+  <a href="https://www.linkedin.com/in/kshitij-raj-287106292" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Kshitij%20Raj-0077B5?style=for-the-badge&logo=linkedin" /></a>
 </p>
 
 ---
 
 ## 🚀 Live Demo
 
-> _Coming soon..._ 🌍  
-> Host your version on **Netlify** and link it here for the world to explore!
+🖥️ **Visit Now** → [https://blog-loom.netlify.app](https://blog-loom.netlify.app)
 
 ---
 
@@ -72,12 +69,13 @@
 
 ## 📸 Screenshots
 
-> Add elegant screenshots here to make the README visually expressive.  
 > Suggestion:
 > - Homepage
 > - Blog Editor
 > - Blog Card View
 > - Login & Signup
+
+_Replace `Preview Screenshot` above with actual UI previews for best results._
 
 ---
 
@@ -107,7 +105,7 @@
 BTech CSE @ Shobhit University  
 > 💌 _“Blog Loom is not just code — it’s a garden where thoughts bloom.”_
 
-📧 Reach me at: [LinkedIn](https://www.linkedin.com/) | [Portfolio (if available)](#)  
+🔗 [Portfolio](https://kshitij-raj.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/kshitij-raj-287106292)
 
 ---
 
