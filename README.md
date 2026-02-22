@@ -1,119 +1,105 @@
-<h1 align="center">🧵✨ Blog Loom ✨🧵</h1>
-<p align="center">
-  A modern, secure & customizable <strong>blogging platform</strong> crafted with the MERN stack, Firebase & AWS.<br/>
-  <em>Where every word is woven with soul. 🌸</em>
-</p>
+# Blogging Website Frontend
 
-<p align="center">
-  <a href="https://blog-loom.netlify.app" target="_blank"><img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=netlify" /></a>
-  <a href="https://kshitij-raj.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Kshitij%20Raj-orange?style=for-the-badge&logo=vercel" /></a>
-  <a href="https://www.linkedin.com/in/kshitij-raj-287106292" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Kshitij%20Raj-0077B5?style=for-the-badge&logo=linkedin" /></a>
-</p>
+## Project Overview
+This project is the frontend for a blogging website that allows users to create, read, update, and delete blog posts, manage user accounts, and interact with other users in a seamless and intuitive interface.
 
----
+## Features
+- User Authentication (Sign Up, Login, Logout)
+- Create, Edit, Delete blog posts
+- Comment on blog posts
+- User profiles
+- Search functionality for blogs
+- Responsive design for mobile and desktop
 
-## 🚀 Live Demo
+## Tech Stack
+- **Frontend:** React.js
+- **Styling:** CSS, Bootstrap
+- **State Management:** Redux
+- **Routing:** React Router
+- **API Communication:** Axios
 
-🖥️ **Visit Now** → [https://blog-loom.netlify.app](https://blog-loom.netlify.app)
+## Project Structure
+```
+blogging-website-frontend/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+└── package.json
+```
 
----
+## Installation
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Kshitij-Raj-01/blogging-website-frontend.git
+   cd blogging-website-frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 🌈 Features
+## Configuration
+- Create a `.env` file in the root of the project and add the following environment variables:
+   ```plaintext
+   REACT_APP_API_URL=your_api_url
+   ```
 
-- 🌟 **User-friendly editor** with live validation
-- 🔐 **JWT-based authentication** with Firebase
-- 📁 **Image uploads** to AWS S3 with secure pre-signed URLs
-- 🧩 **Fully customizable themes**
-- 💬 **Responsive & modern UI**
-- 🚦 **Protected routes** and secure content handling
+## Running the Application
+To run the application in development mode, use:
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+## Components Overview
+The application is structured into various reusable components such as:
+- `Header`: Displays the navigation bar.
+- `Footer`: Displays the footer section.
+- `BlogPost`: Component to render individual blog post.
 
-## ⚙️ Tech Stack
+## Pages Overview
+Pages in the application include:
+- **Home Page:** Lists all blog posts.
+- **Login Page:** For user authentication.
+- **Dashboard:** User-specific page to manage blog posts.
 
-| Layer         | Technology                       |
-|---------------|----------------------------------|
-| 💻 Frontend   | React.js                         |
-| 🧠 Backend    | Node.js, Express.js              |
-| 🧾 Database   | MongoDB                          |
-| 🔐 Auth       | Firebase Authentication + JWT    |
-| ☁️ Storage    | AWS S3                           |
-| 🚀 Deployment | Netlify (Frontend), Render (API) |
+## API Integration
+The frontend integrates with a RESTful API to handle data operations. Key endpoints include:
+- `GET /posts`: Fetch all blog posts
+- `POST /posts`: Create a new blog post
+- `PUT /posts/:id`: Update an existing post
+- `DELETE /posts/:id`: Remove a blog post
 
----
+## Key Functionalities
+- User profiles can be created and users can manage their own blog posts.
+- Posts can be shared with a link, and users can leave comments on posts.
+- Search functionality allows users to find specific blogs easily.
 
-<details>
-  <summary>🛠️ <strong>How it Works – Blog Flow</strong></summary>
+## Contributing Guidelines
+1. Fork the repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request.
 
-### 🔐 Authentication
-- User signs in/signs up via Firebase.
-- On success, receives a JWT.
-- JWT is attached to all protected API requests.
-
-### 📝 Blog Creation
-- Blog editor with title, tags, body, image upload.
-- Live validation with React state hooks.
-- Upon publish:
-  - Metadata + content sent via secure POST.
-  - Images uploaded to AWS S3 via pre-signed URL.
-  - MongoDB stores blog content, image links & timestamps.
-
-### 📡 Blog Delivery
-- Blogs fetched in real-time using API.
-- Responsive cards rendered with React.
-- Blogs show on homepage with author & timestamp.
-
-</details>
-
----
-
-## 📸 Screenshots
-
-> Suggestion:
-> - Homepage
-> - Blog Editor
-> - Blog Card View
-> - Login & Signup
-
-_Replace `Preview Screenshot` above with actual UI previews for best results._
-
----
-
-## 📚 Resources & References
-
-- 🔗 [React Docs](https://reactjs.org/docs)
-- 🔗 [Firebase Docs](https://firebase.google.com/docs)
-- 🔗 [AWS S3 Docs](https://docs.aws.amazon.com/s3/)
-- 🔗 [Render](https://render.com)
-- 🔗 [Netlify](https://www.netlify.com)
-
----
-
-## ✨ Future Scope
-
-- 📊 Analytics Dashboard for writers
-- 🎨 Live Theme Switcher
-- 📦 Auto-scheduled publishing
-- 🔍 SEO & meta tag tools
-- 🧠 AI-based writing suggestions (experimental)
-
----
-
-## 💖 Author
-
-**Kshitij Raj**  
-BTech CSE @ Shobhit University  
-> 💌 _“Blog Loom is not just code — it’s a garden where thoughts bloom.”_
-
-🔗 [Portfolio](https://kshitij-raj.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/kshitij-raj-287106292)
-
----
-
-## 📜 License
-
-MIT License. Feel free to fork, remix, and write your story 🌟  
-_Woven for dreamers. Built for creators._
-
----
-
-_“To blog is to breathe with words.”_ 🌺
+## Future Scope
+- Implement a WYSIWYG editor for creating blog posts.
+- Add additional user roles such as Admin and Moderator.
+- Enhance search capabilities with tags and categories.
+- Optimize for accessibility standards.
